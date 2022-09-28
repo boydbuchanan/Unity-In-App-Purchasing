@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/Purchasing/Purchase.uss?fileID=7433441132597879392&amp;guid=cc49124104534424ea378c7f50161e28&amp;type=3#Purchase" />
+    <ui:VisualElement class="iap-element">
+        <ui:VisualElement class="iap-icon-area">
+            <ui:VisualElement name="PurchaseIcon" class="themed iap-icon" />
+        </ui:VisualElement>
+        <ui:VisualElement class="iap-text-area">
+            <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="PurchaseTitle" class="iap-title" />
+            <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="PurchaseDesc" class="iap-desc" />
+        </ui:VisualElement>
+        <ui:VisualElement class="iap-price-area">
+            <ui:Label tabindex="-1" text="4.99" display-tooltip-when-elided="true" name="PurchasePrice" class="iap-price" />
+        </ui:VisualElement>
+        <ui:Button tabindex="-1" display-tooltip-when-elided="true" name="PurchaseButton" class="iap-button" />
+    </ui:VisualElement>
+</ui:UXML>

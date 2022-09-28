@@ -1,0 +1,79 @@
+.iap-element {
+    flex-direction: row;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    align-items: center;
+    height: auto;
+    min-height: 85px;
+    margin-bottom: 10px;
+}
+
+.iap-icon-area {
+    width: 80px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.iap-icon {
+    width: 80px;
+    height: 80px;
+}
+
+.iap-text-area {
+    flex-wrap: nowrap;
+    width: 100%;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.iap-title {
+    font-size: 24px;
+    min-height: auto;
+    min-width: auto;
+    -unity-font-style: bold;
+    -unity-text-align: upper-left;
+    white-space: normal;
+}
+
+.iap-desc {
+    font-size: 18px;
+    white-space: normal;
+}
+
+.iap-price-area {
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    flex-shrink: 0;
+}
+
+.iap-price {
+    -unity-font-style: bold;
+    font-size: 30px;
+}
+
+.iap-button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(88, 88, 88, 0);
+}
+
+.iap-coffee {
+    background-image: url('project://database/Assets/Scripts/Purchasing/Coffee.png?fileID=2800000&guid=80d8fdaafc04d8b40b209154ab8d3a2d&type=3#Coffee');
+}
+
+.iap-cards {
+    background-image: url('project://database/Assets/Scripts/Purchasing/Cards.png?fileID=2800000&guid=8a94cbae685a85f488b9ae7fdd92a53e&type=3#Cards');
+}
+
+.iap-booze {
+    background-image: url('project://database/Assets/Scripts/Purchasing/Mug.png?fileID=2800000&guid=1a3a2606de44f1247ab523381371531b&type=3#Mug');
+}
